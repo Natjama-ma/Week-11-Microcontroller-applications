@@ -48,10 +48,9 @@
     - Quantization error สูงสุดของ 12-bit ADC คือเท่าไร?
         Quantization error สูงสุด  ±0.403 mV
     - เหตุใดการใช้ oversampling จึงช่วยลด noise ได้?
-        Oversampling ช่วยเฉลี่ย noise แบบสุ่ม ลดค่า RMS noise ~1/√N และเพิ่ม ENOB (ทุก 4 เท่าของ oversampling = +1 bit)
-
-
+        Oversampling จะช่วยเฉลี่ย noise แบบสุ่ม ลดค่า RMS noise ~1/√N และเพิ่ม ENOB (ทุก 4 เท่าของ oversampling = +1 bit)
 ```
+
 
 
 
