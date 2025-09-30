@@ -40,12 +40,19 @@
 ```
   1.การคำนวณความละเอียด:
     - ADC 12-bit มีความละเอียดเท่าไร? (ในหน่วย mV เมื่อใช้ช่วง 0-3.3V)
+        12-bit ADC (0–3.3V) ≈ 0.806 mV/LSB
     - หากต้องการความละเอียด 1mV ต้องใช้ ADC กี่บิต?
+        ความละเอียด 1 mV  อย่างน้อย 12 บิต
 
   2.การวิเคราะห์ error:
     - Quantization error สูงสุดของ 12-bit ADC คือเท่าไร?
+        Quantization error สูงสุด  ±0.403 mV
     - เหตุใดการใช้ oversampling จึงช่วยลด noise ได้?
+        Oversampling ช่วยเฉลี่ย noise แบบสุ่ม ลดค่า RMS noise ~1/√N และเพิ่ม ENOB (ทุก 4 เท่าของ oversampling = +1 bit)
+
+
 ```
+
 
 
 
